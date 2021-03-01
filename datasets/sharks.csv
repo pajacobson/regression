@@ -1,0 +1,810 @@
+Species,Length,Weight,Category,Threatened
+Acroteriobatus annulatus,140,20463.398751342673,Vulnerable,1
+Acroteriobatus blochii,100,8302.228700297239,Least Concern,0
+Acroteriobatus leucospilus,120,13535.898739951816,Endangered,1
+Acroteriobatus salalah,78,4264.7160853657715,Near Threatened,0
+Acroteriobatus variegatus,75,3839.035531864086,Critically Endangered,1
+Acroteriobatus zanzibarensis,75,3839.035531864086,Near Threatened,0
+Aculeola nigra,60,2110.557690505931,Near Threatened,0
+Aetobatus flagellum,72,13930,Endangered,1
+Aetobatus narinari,330,230000,Near Threatened,0
+Aetobatus ocellatus,152.8,200000,Vulnerable,1
+Aetomylaeus caeruleofasciatus,59.1,2026.7451451298573,Least Concern,0
+Aetomylaeus maculatus,200,53245.70254992961,Endangered,1
+Aetomylaeus nichofii,65,2615.758950533419,Vulnerable,1
+Aetomylaeus vespertilio,240,86811.44112877037,Endangered,1
+Alopias pelagicus,428,409406.8603929754,Endangered,1
+Alopias superciliosus,487.985,363800,Vulnerable,1
+Alopias vulpinus,573.3,348000,Vulnerable,1
+Amblyraja badia,86,5540.881341676957,Least Concern,0
+Amblyraja doellojuradoi,69,3069.9681821445706,Least Concern,0
+Amblyraja hyperborea,112,11250.00882384768,Least Concern,0
+Amblyraja jenseni,74.25,3736.9705551005554,Least Concern,0
+Amblyraja radiata,105,11400,Vulnerable,1
+Amblyraja robertsi,77,4119.700070759574,Least Concern,0
+Anacanthobatis marmorata,29,300.4920009689459,Near Threatened,0
+Anoxypristis cuspidata,470,526202.0921501601,Endangered,1
+Apristurus albisoma,59.6,2073.044731659671,Least Concern,0
+Apristurus ampliceps,85.5,5454.932943878653,Least Concern,0
+Apristurus australis,61.6,2264.856523142822,Least Concern,0
+Apristurus breviventralis,48.5,1192.9949161270056,Least Concern,0
+Apristurus canutus,43,863.9507396240134,Least Concern,0
+Apristurus exsanguis,90.8,6409.422361070702,Least Concern,0
+Apristurus garricki,67.5,2894.289539070447,Least Concern,0
+Apristurus gibbosus,388,314708.3022587701,Least Concern,0
+Apristurus herklotsi,48.5,1192.9949161270056,Least Concern,0
+Apristurus indicus,34,460.30467823974953,Least Concern,0
+Apristurus internatus,40.3,726.0728847661436,Least Concern,0
+Apristurus investigatoris,26,224.22443949258994,Least Concern,0
+Apristurus laurussonii,76,3977.81580608374,Least Concern,0
+Apristurus longicephalus,60,2110.557690505931,Least Concern,0
+Apristurus manis,85,5369.82536249275,Least Concern,0
+Apristurus melanoasper,76.1,1288,Least Concern,0
+Apristurus microps,61,2206.19396173106,Least Concern,0
+Apristurus micropterygeus,37.2,585.8409508638068,Least Concern,0
+Apristurus nakayai,67.6,2905.799953969871,Least Concern,0
+Apristurus nasutus,70,3190.7141474884793,Least Concern,0
+Apristurus parvipinnis,48,1160.305427751751,Least Concern,0
+Apristurus pinguis,83.5,5119.513964126872,Least Concern,0
+Apristurus platyrhynchus,80,4564.253830503943,Least Concern,0
+Apristurus profundorum,54.2,1607.0213250123793,Least Concern,0
+Apristurus riveri,46,1035.1816531783882,Least Concern,0
+Apristurus saldanha,88,5893.149921716592,Least Concern,0
+Apristurus sibogae,21,126.4737990051516,Least Concern,0
+Aptychotrema rostrata,100,8302.228700297239,Least Concern,0
+Aptychotrema timorensis,58.2,1945.0510176134171,Vulnerable,1
+Aptychotrema vincentiana,84,5202.119234199062,Least Concern,0
+Asymbolus analis,90,6259.1381295637975,Least Concern,0
+Asymbolus galacticus,47.7,1140.964372066321,Least Concern,0
+Asymbolus occiduus,60.1,2120.0019152495515,Least Concern,0
+Asymbolus pallidus,43.9,913.2891124714267,Least Concern,0
+Asymbolus parvus,34.9,493.7037821525096,Least Concern,0
+Asymbolus rubiginosus,39.3,678.7702289821198,Least Concern,0
+Asymbolus submaculatus,41.4,780.4344098834281,Least Concern,0
+Asymbolus vincenti,61,2206.19396173106,Least Concern,0
+Atelomycterus baliensis,47.4,1121.8267308199436,Vulnerable,1
+Atelomycterus fasciatus,45,975.9434795636485,Least Concern,0
+Atelomycterus macleayi,60,2110.557690505931,Least Concern,0
+Atelomycterus marmoratus,70,3190.7141474884793,Near Threatened,0
+Atlantoraja castelnaui,132,17476.91595646936,Critically Endangered,1
+Atlantoraja cyclophora,78.9,4397.930995414298,Endangered,1
+Atlantoraja platana,81.6,4813.130777146255,Endangered,1
+Bathyraja albomaculata,14.4,45.99228532257332,Vulnerable,1
+Bathyraja aleutica,161,23100,Least Concern,0
+Bathyraja andriashevi,75.6,3921.932775972169,Least Concern,0
+Bathyraja brachyurops,64.2,2530.33435949998,Near Threatened,0
+Bathyraja cousseauae,86,5540.881341676957,Least Concern,0
+Bathyraja eatonii,100,8302.228700297239,Least Concern,0
+Bathyraja fedorovi,73.3,3610.1537613967453,Least Concern,0
+Bathyraja griseocauda,49,1226.2558812212246,Endangered,1
+Bathyraja interrupta,86,5540.881341676957,Least Concern,0
+Bathyraja irrasa,120,13535.898739951816,Vulnerable,1
+Bathyraja isotrachys,76.2,4005.943449811074,Least Concern,0
+Bathyraja leucomelanos,88.8,6037.88696505196,Least Concern,0
+Bathyraja lindbergi,60.7,2177.2238464066586,Least Concern,0
+Bathyraja maccaini,120,13535.898739951816,Least Concern,0
+Bathyraja maculata,115,8500,Least Concern,0
+Bathyraja mariposa,76,3977.81580608374,Least Concern,0
+Bathyraja matsubarai,126,10600,Least Concern,0
+Bathyraja meridionalis,120,13535.898739951816,Least Concern,0
+Bathyraja minispinosa,82.5,4956.7821563451735,Least Concern,0
+Bathyraja murrayi,60,2110.557690505931,Least Concern,0
+Bathyraja pacifica,122.4,14273.976260081059,Least Concern,0
+Bathyraja pallida,160,29272.489423555493,Least Concern,0
+Bathyraja panthera,111,10982.71925969339,Least Concern,0
+Bathyraja parmifera,129,18200,Least Concern,0
+Bathyraja richardsoni,175,37222.25422337344,Least Concern,0
+Bathyraja scaphiops,111,10982.71925969339,Least Concern,0
+Bathyraja smirnovi,101.5,8640.33861933733,Near Threatened,0
+Bathyraja smithii,120,13535.898739951816,Least Concern,0
+Bathyraja spinicauda,170,34438.9602259596,Near Threatened,0
+Bathyraja spinosissima,150,24621.35787718393,Least Concern,0
+Bathyraja taranetzi,70,3190.7141474884793,Least Concern,0
+Bathyraja trachura,91,5000,Least Concern,0
+Bathyraja violacea,102,8754.927740707097,Least Concern,0
+Bathytoshia brevicaudata,430,414556.2736240206,Least Concern,0
+Bathytoshia centroura,300,300000,Vulnerable,1
+Bathytoshia lata,100,8302.228700297239,Least Concern,0
+Benthobatis kreffti,30,329.08444799503474,Vulnerable,1
+Benthobatis marcida,50,1294.5082530821128,Least Concern,0
+Benthobatis moresbyi,35.12,502.0920864063904,Least Concern,0
+Benthobatis yangi,21.5,134.7097752992085,Vulnerable,1
+Beringraja binoculata,244,91000,Least Concern,0
+Beringraja cortezensis,39,664.9672478138765,Least Concern,0
+Beringraja pulchra,115,12076.22898225078,Endangered,1
+Beringraja rhina,180,40142.49897184172,Least Concern,0
+Brachaelurus colcloughi,76,3977.81580608374,Vulnerable,1
+Brachaelurus waddi,122,14149.254579023715,Least Concern,0
+Breviraja claramaculata,29.4,311.7336168475971,Least Concern,0
+Breviraja colesi,40,711.6720661450178,Least Concern,0
+Breviraja mouldi,41,760.3816301145959,Least Concern,0
+Breviraja nigriventralis,40,711.6720661450178,Least Concern,0
+Breviraja spinosa,23.6,172.94679007805652,Least Concern,0
+Brevitrygon walga,45,975.9434795636485,Near Threatened,0
+Bythaelurus canescens,70,3190.7141474884793,Vulnerable,1
+Bythaelurus dawsoni,45,975.9434795636485,Least Concern,0
+Bythaelurus giddingsi,45.3,993.4853553943161,Least Concern,0
+Bythaelurus hispidus,26,224.22443949258994,Near Threatened,0
+Bythaelurus immaculatus,71,3314.395020665394,Least Concern,0
+Bythaelurus tenuicephalus,300,157907.17712425409,Least Concern,0
+Callorhinchus callorynchus,89.2,6111.0829137369965,Vulnerable,1
+Callorhinchus capensis,122,5250,Least Concern,0
+Callorhinchus milii,125,15101.482948074536,Least Concern,0
+Carcharhinus acronotus,200,18860,Near Threatened,0
+Carcharhinus albimarginatus,300,162200,Vulnerable,1
+Carcharhinus altimus,300,167800,Near Threatened,0
+Carcharhinus amblyrhynchoides,161,29765.58439873757,Near Threatened,0
+Carcharhinus amblyrhynchos,255,33700,Endangered,1
+Carcharhinus borneensis,70,3190.7141474884793,Endangered,1
+Carcharhinus brachyurus,325,304600,Vulnerable,1
+Carcharhinus brevipinna,300,89700,Vulnerable,1
+Carcharhinus cautus,150,24621.35787718393,Least Concern,0
+Carcharhinus cerdale,140,20463.398751342673,Critically Endangered,1
+Carcharhinus coatesi,87,5715.313963794572,Least Concern,0
+Carcharhinus dussumieri,121,13840.446299115116,Endangered,1
+Carcharhinus falciformis,350,346000,Vulnerable,1
+Carcharhinus fitzroyensis,135,18562.302419493753,Least Concern,0
+Carcharhinus galapagensis,370,85450,Least Concern,0
+Carcharhinus hemiodon,200,53245.70254992961,Critically Endangered,1
+Carcharhinus isodon,190,46404.42996259875,Least Concern,0
+Carcharhinus leiodon,75,3839.035531864086,Endangered,1
+Carcharhinus leucas,360,316500,Near Threatened,0
+Carcharhinus limbatus,275,122750,Near Threatened,0
+Carcharhinus longimanus,400,167370,Critically Endangered,1
+Carcharhinus macloti,110,10719.447303356466,Near Threatened,0
+Carcharhinus melanopterus,200,53245.70254992961,Vulnerable,1
+Carcharhinus obscurus,420,346540,Endangered,1
+Carcharhinus perezi,300,69850,Near Threatened,0
+Carcharhinus plumbeus,180,117930,Vulnerable,1
+Carcharhinus porosus,150,24621.35787718393,Critically Endangered,1
+Carcharhinus sealei,100,8302.228700297239,Near Threatened,0
+Carcharhinus signatus,280,76650,Vulnerable,1
+Carcharhinus sorrah,160,28000,Near Threatened,0
+Carcharhinus tilstoni,200,52000,Least Concern,0
+Carcharhinus tjutjot,93.7,6973.099542599098,Vulnerable,1
+Carcharias taurus,330,158810,Vulnerable,1
+Carcharodon carcharias,640,1204035.7881316107,Vulnerable,1
+Centrophorus atromarginatus,87,5715.313963794572,Critically Endangered,1
+Centrophorus granulosus,170,34438.9602259596,Endangered,1
+Centrophorus harrissoni,111.4,11089.15159229758,Endangered,1
+Centrophorus isodon,108,10204.857391860778,Endangered,1
+Centrophorus lesliei,76.5,4048.368201935196,Endangered,1
+Centrophorus longipinnis,77.5,4191.814878859235,Endangered,1
+Centrophorus moluccensis,100,2400,Vulnerable,1
+Centrophorus seychellorum,79.7,4518.508868775556,Least Concern,0
+Centrophorus squamosus,164,31276.010798012434,Endangered,1
+Centrophorus uyato,110,7340,Endangered,1
+Centroscyllium fabricii,107,9953.489845498221,Least Concern,0
+Centroscyllium granulatum,28,273.50994676164095,Vulnerable,1
+Centroscyllium kamoharai,60,2110.557690505931,Least Concern,0
+Centroscyllium nigrum,51,1365.0944372415463,Least Concern,0
+Centroscyllium ornatum,30,329.08444799503474,Least Concern,0
+Centroscymnus coelolepis,120,13535.898739951816,Near Threatened,0
+Centroscymnus owstonii,121,13840.446299115116,Vulnerable,1
+Cephaloscyllium albipinnum,101.3,8594.767755042694,Critically Endangered,1
+Cephaloscyllium fasciatum,42,811.1299417645272,Critically Endangered,1
+Cephaloscyllium hiscosellum,46.3,1053.3815884603657,Least Concern,0
+Cephaloscyllium isabellum,100,8302.228700297239,Least Concern,0
+Cephaloscyllium laticeps,150,24621.35787718393,Least Concern,0
+Cephaloscyllium silasi,36,536.5371065716666,Critically Endangered,1
+Cephaloscyllium sufflans,110,10719.447303356466,Near Threatened,0
+Cephaloscyllium variegatum,72,3441.039293761209,Near Threatened,0
+Cephaloscyllium ventriosum,110,10719.447303356466,Least Concern,0
+Cephalurus cephalus,28,273.50994676164095,Least Concern,0
+Cetorhinus maximus,1520,4000000,Endangered,1
+Chaenogaleus macrostoma,100,8302.228700297239,Vulnerable,1
+Chiloscyllium arabicum,80,4564.253830503943,Near Threatened,0
+Chiloscyllium burmensis,57.5,1882.961629697499,Vulnerable,1
+Chiloscyllium griseum,77,4119.700070759574,Vulnerable,1
+Chiloscyllium indicum,65,2615.758950533419,Vulnerable,1
+Chiloscyllium plagiosum,83,5037.73606403926,Near Threatened,0
+Chiloscyllium punctatum,132,17476.91595646936,Near Threatened,0
+Chimaera argiloba,91.2,6485.404570389829,Least Concern,0
+Chimaera carophila,103.5,9104.396905067562,Least Concern,0
+Chimaera cubana,75,3839.035531864086,Least Concern,0
+Chimaera fulva,100,8302.228700297239,Least Concern,0
+Chimaera lignaria,142,21256.616479018347,Least Concern,0
+Chimaera macrospina,93.9,7013.07627105578,Least Concern,0
+Chimaera monstrosa,150,2500,Vulnerable,1
+Chimaera notafricana,83.7,5152.45659882956,Least Concern,0
+Chimaera opalescens,96.8,7608.958066206801,Least Concern,0
+Chimaera panthera,129,16432.216865280418,Least Concern,0
+Chimaera phantasma,100,8302.228700297239,Vulnerable,1
+Chlamydoselachus africana,99,8081.504830369964,Least Concern,0
+Chlamydoselachus anguineus,200,53245.70254992961,Least Concern,0
+Cirrhigaleus barbifer,126,15427.57300583775,Least Concern,0
+Cirrhoscyllium formosanum,39,664.9672478138765,Vulnerable,1
+Cruriraja hulleyi,58,1927.1822398307118,Least Concern,0
+Cruriraja parcomaculata,55,1671.4081849102683,Least Concern,0
+Cruriraja poeyi,32.8,418.0292898666019,Least Concern,0
+Dactylobatus armatus,32,391.25059923352364,Least Concern,0
+Dactylobatus clarkii,59,2017.5638085501866,Least Concern,0
+Dalatias licha,182,41349.5381854191,Vulnerable,1
+Dasyatis chrysonota,75,3839.035531864086,Near Threatened,0
+Dasyatis hypostigma,65,2615.758950533419,Endangered,1
+Deania calcea,122,14149.254579023715,Near Threatened,0
+Deania profundorum,79,4412.891494636824,Near Threatened,0
+Deania quadrispinosa,115,12076.22898225078,Vulnerable,1
+Dentiraja lemprieri,55,1671.4081849102683,Least Concern,0
+Diplobatis colombiensis,17,71.77207788702914,Vulnerable,1
+Diplobatis guamachensis,20,110.96603049247985,Vulnerable,1
+Diplobatis ommata,25,201.84358655859572,Least Concern,0
+Dipturus acrobelus,95,7235.517080371959,Least Concern,0
+Dipturus apricus,65.9,2713.9970536220458,Least Concern,0
+Dipturus batis,285,97070,Critically Endangered,1
+Dipturus bullisi,48,1160.305427751751,Least Concern,0
+Dipturus campbelli,66,2725.0528455403864,Near Threatened,0
+Dipturus canutus,79.5,4488.172580354778,Endangered,1
+Dipturus chinensis,68,2952.1285024366134,Vulnerable,1
+Dipturus crosnieri,61,2206.19396173106,Vulnerable,1
+Dipturus garricki,107,9953.489845498221,Least Concern,0
+Dipturus grahami,62.2,2324.4875525634156,Least Concern,0
+Dipturus gudgeri,184,42579.08302944173,Near Threatened,0
+Dipturus innominatus,240,86811.44112877037,Least Concern,0
+Dipturus laevis,163,18000,Least Concern,0
+Dipturus mennii,167,32833.60740524421,Critically Endangered,1
+Dipturus nidarosiensis,200,53245.70254992961,Near Threatened,0
+Dipturus olseni,69,3069.9681821445706,Least Concern,0
+Dipturus oregoni,144,22068.839743196844,Least Concern,0
+Dipturus oxyrinchus,150,24621.35787718393,Near Threatened,0
+Dipturus pullopunctatus,130,16775.96800211394,Least Concern,0
+Dipturus springeri,192,47725.67307009644,Least Concern,0
+Dipturus teevani,84,5202.119234199062,Least Concern,0
+Dipturus wengi,112.2,11303.95101713392,Least Concern,0
+Discopyge tschudii,53.8,1575.4206352049578,Least Concern,0
+Echinorhinus brucus,310,172417.6942500732,Endangered,1
+Electrolux addisoni,52,1800,Least Concern,0
+Eridacnis barbouri,200,53245.70254992961,Least Concern,0
+Eridacnis radcliffei,23,161.40860988696107,Least Concern,0
+Etmopterus alphus,33.6,445.92880747824216,Least Concern,0
+Etmopterus benchleyi,32.5,407.856934779174,Least Concern,0
+Etmopterus bigelowi,67,2837.166353563241,Least Concern,0
+Etmopterus burgessi,35.5,516.7903539048499,Least Concern,0
+Etmopterus carteri,21.2,129.72911849173065,Least Concern,0
+Etmopterus caudistigmus,31.4,371.8908845078053,Least Concern,0
+Etmopterus compagnoi,78,4264.7160853657715,Least Concern,0
+Etmopterus decacuspidatus,29,300.4920009689459,Least Concern,0
+Etmopterus dianthus,40.9,755.4194890124962,Least Concern,0
+Etmopterus dislineatus,44.8,964.3575614257306,Least Concern,0
+Etmopterus evansi,26.2,228.87875250717983,Least Concern,0
+Etmopterus fusus,25.8,219.62992631923836,Least Concern,0
+Etmopterus gracilispinis,35,497.50566338913507,Least Concern,0
+Etmopterus granulosus,74.9,3825.3271517053076,Least Concern,0
+Etmopterus hillianus,50,1294.5082530821128,Least Concern,0
+Etmopterus joungi,40.6,740.655052925275,Least Concern,0
+Etmopterus lucifer,47,1096.6247904793313,Least Concern,0
+Etmopterus marshae,23.4,169.04517924902422,Least Concern,0
+Etmopterus perryi,17,71.77207788702914,Least Concern,0
+Etmopterus princeps,75,3839.035531864086,Least Concern,0
+Etmopterus pseudosqualiolus,45.3,993.4853553943161,Least Concern,0
+Etmopterus pusillus,50,1294.5082530821128,Least Concern,0
+Etmopterus robinsi,31,359.32490701302584,Least Concern,0
+Etmopterus samadiae,26.5,235.97303103701194,Least Concern,0
+Etmopterus schultzi,27,248.10025002303675,Least Concern,0
+Etmopterus sculptus,4.55,2.095059754601085,Least Concern,0
+Etmopterus sentosus,27,248.10025002303675,Least Concern,0
+Etmopterus spinax,60,850,Least Concern,0
+Etmopterus splendidus,30,329.08444799503474,Least Concern,0
+Etmopterus viator,39.1,669.5484907354416,Least Concern,0
+Etmopterus villosus,46,1035.1816531783882,Least Concern,0
+Etmopterus virens,23,161.40860988696107,Least Concern,0
+Eucrossorhinus dasypogon,366,269116.7552281557,Least Concern,0
+Euprotomicroides zantedeschia,42,811.1299417645272,Least Concern,0
+Euprotomicrus bispinatus,30.5,343.9963405559438,Least Concern,0
+Eusphyra blochii,186,43831.30165587511,Endangered,1
+Fenestraja sinusmexicanus,37.5,598.5938666921585,Least Concern,0
+Figaro boardmani,61,2206.19396173106,Least Concern,0
+Fluvitrygon kittipongi,26.8,243.20361600797486,Endangered,1
+Fluvitrygon signifer,60,2110.557690505931,Endangered,1
+Fontitrygon colarensis,207,58390.34637607264,Critically Endangered,1
+Fontitrygon garouaensis,40,711.6720661450178,Vulnerable,1
+Fontitrygon geijskesi,150,24621.35787718393,Critically Endangered,1
+Fontitrygon margarita,100,20000,Endangered,1
+Fontitrygon ukpam,120,13535.898739951816,Endangered,1
+Furgaleus macki,160,12900,Least Concern,0
+Galeocerdo cuvier,750,807400,Near Threatened,0
+Galeorhinus galeus,193,44670,Critically Endangered,1
+Galeus arae,36,536.5371065716666,Least Concern,0
+Galeus corriganae,37.2,585.8409508638068,Least Concern,0
+Galeus eastmani,40,711.6720661450178,Least Concern,0
+Galeus melastomus,75,1370,Least Concern,0
+Galeus mincaronei,40.4,730.9134121398802,Vulnerable,1
+Galeus murinus,63,2405.513182305948,Least Concern,0
+Galeus piperatus,29,300.4920009689459,Least Concern,0
+Galeus polli,45,975.9434795636485,Least Concern,0
+Galeus priapus,44.6,952.8582688668166,Least Concern,0
+Galeus sauteri,38,620.2329008392073,Least Concern,0
+Galeus springeri,31.8,384.7288684497627,Least Concern,0
+Glaucostegus cemiculus,242,49900,Critically Endangered,1
+Glaucostegus granulatus,280,131240.42740903815,Critically Endangered,1
+Glaucostegus halavi,120,13535.898739951816,Critically Endangered,1
+Glaucostegus obtusus,93,6834.3072426841945,Critically Endangered,1
+Glaucostegus thouin,300,157907.17712425409,Critically Endangered,1
+Glaucostegus typus,270,119047.89291516595,Critically Endangered,1
+Glyphis gangeticus,204,56149.05288156271,Critically Endangered,1
+Glyphis garricki,145,22482.135330804656,Critically Endangered,1
+Glyphis glyphis,100,8302.228700297239,Endangered,1
+Gollum attenuatus,107,9953.489845498221,Least Concern,0
+Gollum suluensis,58.5,1972.04837111333,Least Concern,0
+Gurgesiella atlantica,50,1294.5082530821128,Least Concern,0
+Gurgesiella dorsalifera,53,1513.394809269974,Vulnerable,1
+Gurgesiella furvescens,52,1438.0461247977532,Least Concern,0
+Gymnura altavela,400,60000,Vulnerable,1
+Gymnura australis,94,7400,Least Concern,0
+Gymnura crebripunctata,31,359.32490701302584,Near Threatened,0
+Gymnura marmorata,100,8302.228700297239,Near Threatened,0
+Gymnura natalensis,250,82600,Least Concern,0
+Gymnura poecilura,250,96852.19453027385,Near Threatened,0
+Gymnura zonura,106,9706.04072278947,Vulnerable,1
+Halaelurus boesemani,48,1160.305427751751,Vulnerable,1
+Halaelurus buergeri,49,1226.2558812212246,Endangered,1
+Halaelurus lineatus,56,1754.1349191206955,Least Concern,0
+Halaelurus maculosus,45.7,1017.1801661730119,Near Threatened,0
+Halaelurus natalensis,45,975.9434795636485,Vulnerable,1
+Halaelurus sellus,35.3,509.02127857440894,Least Concern,0
+Haploblepharus edwardsii,59,2017.5638085501866,Endangered,1
+Haploblepharus fuscus,69,3069.9681821445706,Vulnerable,1
+Haploblepharus pictus,57,1839.382745288542,Least Concern,0
+Harriotta haeckeli,74,3703.331371891116,Least Concern,0
+Harriotta raleighana,120,13535.898739951816,Least Concern,0
+Hemigaleus australiensis,110,10719.447303356466,Least Concern,0
+Hemigaleus microstoma,114,11796.739172892238,Vulnerable,1
+Hemipristis elongata,240,86811.44112877037,Vulnerable,1
+Hemiscyllium freycineti,72,3441.039293761209,Near Threatened,0
+Hemiscyllium galei,56.75,1817.832761281592,Vulnerable,1
+Hemiscyllium hallstromi,77,4119.700070759574,Vulnerable,1
+Hemiscyllium halmahera,68.1,2963.782506014762,Near Threatened,0
+Hemiscyllium henryi,78.3,4308.835716840016,Vulnerable,1
+Hemiscyllium michaeli,69.5,3129.9760871464246,Vulnerable,1
+Hemiscyllium ocellatum,107,9953.489845498221,Least Concern,0
+Hemiscyllium strahani,80,4564.253830503943,Vulnerable,1
+Hemiscyllium trispeculare,79,4412.891494636824,Least Concern,0
+Hemitriakis complicofasciata,81,4718.830513974733,Vulnerable,1
+Hemitriakis japanica,110,10719.447303356466,Least Concern,0
+Hemitrygon akajei,200,10650,Near Threatened,0
+Hemitrygon fluviorum,130,6120,Vulnerable,1
+Hemitrygon izuensis,41.82,801.8432721295692,Near Threatened,0
+Hemitrygon laevigata,37,577.4344694502713,Vulnerable,1
+Hemitrygon laosensis,62,6000,Endangered,1
+Hemitrygon navarrae,32,391.25059923352364,Vulnerable,1
+Heptranchias perlo,137,19308.807587237734,Near Threatened,0
+Heterodontus galeatus,152,25511.41444725081,Least Concern,0
+Heterodontus japonicus,120,13535.898739951816,Least Concern,0
+Heterodontus mexicanus,170,34438.9602259596,Least Concern,0
+Heterodontus portusjacksoni,165,31789.9395245646,Least Concern,0
+Heterodontus quoyi,107,9953.489845498221,Least Concern,0
+Heterodontus zebra,125,15101.482948074536,Least Concern,0
+Heteronarce garmani,25,201.84358655859572,Near Threatened,0
+Heteroscymnoides marleyi,29,300.4920009689459,Least Concern,0
+Hexanchus griseus,482,590000,Near Threatened,0
+Hexanchus nakamurai,180,40142.49897184172,Near Threatened,0
+Hexatrygon bickelli,143,21660.341030477317,Least Concern,0
+Himantura uarnak,200,120000,Vulnerable,1
+Himantura undulata,410,364859.8938055748,Endangered,1
+Holohalaelurus favus,51.5,301.3,Endangered,1
+Holohalaelurus melanostigma,38.4,637.8923882187007,Least Concern,0
+Holohalaelurus punctatus,35,497.50566338913507,Endangered,1
+Holohalaelurus regani,69,3069.9681821445706,Least Concern,0
+Hongeo koreana,76,3977.81580608374,Critically Endangered,1
+Hydrolagus affinis,130,16775.96800211394,Least Concern,0
+Hydrolagus africanus,67,2837.166353563241,Least Concern,0
+Hydrolagus alberti,54,1591.1717915957704,Least Concern,0
+Hydrolagus alphus,41.9,805.962403378774,Least Concern,0
+Hydrolagus bemisi,111.5,11115.860300591916,Least Concern,0
+Hydrolagus colliei,100,8302.228700297239,Least Concern,0
+Hydrolagus homonycteris,108.5,10332.01835970101,Least Concern,0
+Hydrolagus lusitanicus,95.4,7317.486878304798,Least Concern,0
+Hydrolagus macrophthalmus,63.9,2498.757502252429,Least Concern,0
+Hydrolagus marmoratus,80.1,4579.566401713213,Least Concern,0
+Hydrolagus matallanasi,69.5,3129.9760871464246,Vulnerable,1
+Hydrolagus melanophasma,120,13535.898739951816,Least Concern,0
+Hydrolagus mirabilis,38,620.2329008392073,Least Concern,0
+Hydrolagus novaezealandiae,96,7441.529245144339,Least Concern,0
+Hydrolagus trolli,111.5,11115.860300591916,Least Concern,0
+Hypanus americanus,200,135630,Near Threatened,0
+Hypanus dipterurus,122,14149.254579023715,Vulnerable,1
+Hypanus guttatus,200,53245.70254992961,Near Threatened,0
+Hypanus longus,260,107591.37509614923,Vulnerable,1
+Hypanus marianae,40,711.6720661450178,Endangered,1
+Hypanus sabinus,61,4870,Least Concern,0
+Hypanus say,100,8302.228700297239,Near Threatened,0
+Hypnos monopterygius,70,3190.7141474884793,Least Concern,0
+Hypogaleus hyugaensis,127,15758.042924103507,Least Concern,0
+Iago garricki,75,3839.035531864086,Least Concern,0
+Iago omanensis,37,577.4344694502713,Least Concern,0
+Indobatis ori,42.9,858.574441721128,Least Concern,0
+Irolita waitii,52,1438.0461247977532,Least Concern,0
+Isistius brasiliensis,42,811.1299417645272,Least Concern,0
+Isistius plutodus,42,811.1299417645272,Least Concern,0
+Isogomphodon oxyrhynchus,160,29272.489423555493,Critically Endangered,1
+Isurus oxyrinchus,445,505760,Endangered,1
+Isurus paucus,427,406847.2717402166,Endangered,1
+Lamiopsis temminckii,170,34438.9602259596,Endangered,1
+Lamna ditropis,305,175000,Least Concern,0
+Lamna nasus,350,230000,Vulnerable,1
+Leptocharias smithii,77,4119.700070759574,Near Threatened,0
+Leucoraja circularis,120,13535.898739951816,Endangered,1
+Leucoraja erinacea,54,1591.1717915957704,Least Concern,0
+Leucoraja fullonica,120,13535.898739951816,Vulnerable,1
+Leucoraja garmani,26,224.22443949258994,Least Concern,0
+Leucoraja lentiginosa,43,863.9507396240134,Least Concern,0
+Leucoraja melitensis,50,1294.5082530821128,Critically Endangered,1
+Leucoraja naevus,71,3314.395020665394,Least Concern,0
+Leucoraja ocellata,110,10719.447303356466,Endangered,1
+Leucoraja pristispina,40.1,716.4522458504002,Least Concern,0
+Leucoraja wallacei,100,8302.228700297239,Vulnerable,1
+Loxodon macrorhinus,98,7864.497384813009,Least Concern,0
+Maculabatis ambigua,90,6259.1381295637975,Near Threatened,0
+Maculabatis arabica,45,975.9434795636485,Critically Endangered,1
+Maculabatis astra,180,40142.49897184172,Least Concern,0
+Maculabatis gerrardi,200,53245.70254992961,Endangered,1
+Maculabatis pastinacoides,80,4564.253830503943,Endangered,1
+Maculabatis toshi,86,5540.881341676957,Least Concern,0
+Malacoraja kreffti,70,3190.7141474884793,Least Concern,0
+Malacoraja obscura,68,2952.1285024366134,Least Concern,0
+Malacoraja senta,61,2206.19396173106,Vulnerable,1
+Malacoraja spinacidermis,70,3190.7141474884793,Least Concern,0
+Megachasma pelagios,549,798101.3509037284,Least Concern,0
+Mitsukurina owstoni,617,1091500.4224749028,Least Concern,0
+Mobula alfredi,500,621154.0692780783,Vulnerable,1
+Mobula birostris,910,3000000,Endangered,1
+Mobula hypostoma,120,13535.898739951816,Endangered,1
+Mobula kuhlii,119,30000,Endangered,1
+Mobula mobular,520,1500000,Endangered,1
+Mobula munkiana,220,68748.34736770486,Vulnerable,1
+Mobula tarapacana,328,350000,Endangered,1
+Mobula thurstoni,220,68748.34736770486,Endangered,1
+Mustelus albipinnis,109,10460.16826718824,Least Concern,0
+Mustelus antarcticus,157,30800,Least Concern,0
+Mustelus asterias,140,4760,Least Concern,0
+Mustelus californicus,116,12359.834449978396,Least Concern,0
+Mustelus canis,150,12150,Near Threatened,0
+Mustelus dorsalis,64,2509.255500095302,Vulnerable,1
+Mustelus fasciatus,150,24621.35787718393,Critically Endangered,1
+Mustelus griseus,87,5715.313963794572,Endangered,1
+Mustelus henlei,100,8302.228700297239,Least Concern,0
+Mustelus higmani,70,3190.7141474884793,Endangered,1
+Mustelus lenticulatus,125,15101.482948074536,Least Concern,0
+Mustelus lunulatus,175,37222.25422337344,Least Concern,0
+Mustelus manazo,220,5720,Endangered,1
+Mustelus mento,130,16775.96800211394,Critically Endangered,1
+Mustelus minicanis,47.8,1147.388746001343,Endangered,1
+Mustelus mosis,150,24621.35787718393,Near Threatened,0
+Mustelus mustelus,200,53245.70254992961,Vulnerable,1
+Mustelus palumbes,120,13535.898739951816,Least Concern,0
+Mustelus ravidus,68.3,2987.1769546770965,Least Concern,0
+Mustelus schmitti,92,6639.057580804473,Critically Endangered,1
+Mustelus stevensi,91.9,6619.7274915172875,Least Concern,0
+Myliobatis goodei,125,15101.482948074536,Vulnerable,1
+Myliobatis hamlyni,48,1160.305427751751,Near Threatened,0
+Myliobatis longirostris,95,7235.517080371959,Vulnerable,1
+Myliobatis peruvianus,47,1096.6247904793313,Vulnerable,1
+Myliobatis ridens,63,2405.513182305948,Critically Endangered,1
+Myliobatis tenuicaudatus,150,24621.35787718393,Least Concern,0
+Narcine bancroftii,65,2615.758950533419,Least Concern,0
+Narcine brasiliensis,54,650,Near Threatened,0
+Narcine brevilabiata,32,391.25059923352364,Vulnerable,1
+Narcine entemedor,119,13235.587886639189,Vulnerable,1
+Narcine leoparda,16.5,54.9,Vulnerable,1
+Narcine lingula,35,497.50566338913507,Vulnerable,1
+Narcine maculata,40,711.6720661450178,Vulnerable,1
+Narcine vermiculata,60,2110.557690505931,Least Concern,0
+Narke capensis,38,620.2329008392073,Least Concern,0
+Narke japonica,40,711.6720661450178,Vulnerable,1
+Nasolamia velox,150,24621.35787718393,Endangered,1
+Nebrius ferrugineus,320,187736.85006855972,Vulnerable,1
+Negaprion acutidens,380,297611.22753690375,Vulnerable,1
+Negaprion brevirostris,340,183700,Near Threatened,0
+Neoharriotta carri,59.6,2073.044731659671,Near Threatened,0
+Neoharriotta pinnata,130,16775.96800211394,Near Threatened,0
+Neoharriotta pumila,72.8,3544.5074252779796,Least Concern,0
+Neoraja caerulea,30,329.08444799503474,Least Concern,0
+Neoraja carolinensis,28.5,286.80204199477214,Least Concern,0
+Neoraja iberica,32.7,414.62104025387555,Least Concern,0
+Neoraja stehmanni,35,497.50566338913507,Least Concern,0
+Neotrygon annotata,45,975.9434795636485,Near Threatened,0
+Neotrygon leylandi,25,201.84358655859572,Least Concern,0
+Neotrygon picta,24,180.9182818906009,Least Concern,0
+Notoraja alisae,51.5,1401.2726201790042,Least Concern,0
+Notoraja azurea,64.5,2562.16024834139,Least Concern,0
+Notoraja fijiensis,31,359.32490701302584,Least Concern,0
+Notoraja inusitata,44,918.8775069565609,Least Concern,0
+Notoraja longiventralis,43.4,885.6668635535683,Least Concern,0
+Notoraja martinezi,47.5,1128.1833967694427,Least Concern,0
+Notoraja sticta,62.7,2374.9245076948746,Least Concern,0
+Notoraja tobitukai,50,1294.5082530821128,Least Concern,0
+Notorynchus cepedianus,300,107000,Vulnerable,1
+Odontaspis ferox,450,289000,Vulnerable,1
+Odontaspis noronhai,367,271092.671967055,Least Concern,0
+Okamejei arafurensis,40.7,745.5562343388801,Least Concern,0
+Okamejei boesemani,55,1671.4081849102683,Vulnerable,1
+Okamejei cairae,36,536.5371065716666,Vulnerable,1
+Okamejei heemstrai,51.5,1401.2726201790042,Least Concern,0
+Okamejei hollandi,42,811.1299417645272,Vulnerable,1
+Okamejei leptoura,48.6,1199.6012626232352,Least Concern,0
+Okamejei ornata,41.8,800.8155564439902,Least Concern,0
+Orbiraja jensenae,53.3,1536.4715134552966,Near Threatened,0
+Orbiraja powelli,21,126.4737990051516,Near Threatened,0
+Orectolobus floridus,75,3839.035531864086,Least Concern,0
+Orectolobus halei,256,103210.67607081098,Least Concern,0
+Orectolobus hutchinsi,149,24183.73895355032,Least Concern,0
+Orectolobus japonicus,118,12939.4896603752,Least Concern,0
+Orectolobus maculatus,320,187736.85006855972,Least Concern,0
+Orectolobus ornatus,290,144187.43854507766,Least Concern,0
+Orectolobus parvimaculatus,88.5,5983.352466379283,Least Concern,0
+Orectolobus wardi,63,2405.513182305948,Least Concern,0
+Oxynotus bruniensis,60,2110.557690505931,Near Threatened,0
+Oxynotus caribbaeus,49,1226.2558812212246,Least Concern,0
+Oxynotus centrina,150,24621.35787718393,Vulnerable,1
+Paragaleus leucolomatus,96,7441.529245144339,Vulnerable,1
+Paragaleus randalli,48.3,1179.8507683554262,Near Threatened,0
+Paragaleus tengi,88,5893.149921716592,Endangered,1
+Parascyllium collare,85,5369.82536249275,Least Concern,0
+Parascyllium ferrugineum,80,4564.253830503943,Least Concern,0
+Parascyllium variolatum,91,6447.3432826829485,Least Concern,0
+Parmaturus albimarginatus,57.7,1900.5726538852673,Least Concern,0
+Parmaturus albipenis,41.5,785.4988277442587,Least Concern,0
+Parmaturus campechiensis,16,61.00495999501742,Least Concern,0
+Parmaturus lanatus,36,536.5371065716666,Least Concern,0
+Parmaturus xaniurus,45,975.9434795636485,Least Concern,0
+Pastinachus sephen,183,41961.48688039078,Near Threatened,0
+Pastinachus solocirostris,45,975.9434795636485,Endangered,1
+Pateobatis bleekeri,105,9462.485044081604,Endangered,1
+Pateobatis fai,183,18500,Vulnerable,1
+Pateobatis hortlei,70.7,3276.980895620222,Vulnerable,1
+Pateobatis jenkinsii,130,16775.96800211394,Vulnerable,1
+Pateobatis uarnacoides,119,13235.587886639189,Endangered,1
+Pavoraja alleni,35,497.50566338913507,Least Concern,0
+Pavoraja mosaica,27.9,270.8988522933214,Least Concern,0
+Pavoraja nitida,36.8,569.1040317424287,Least Concern,0
+Pavoraja pseudonitida,37.2,585.8409508638068,Least Concern,0
+Pavoraja umbrosa,36.9,573.2597626345499,Least Concern,0
+Pentanchus profundicolus,51,1365.0944372415463,Least Concern,0
+Platyrhina sinensis,68,2952.1285024366134,Vulnerable,1
+Platyrhinoidis triseriata,91,6447.3432826829485,Least Concern,0
+Plesiobatis daviesi,270,119047.89291516595,Least Concern,0
+Pliotrema warreni,170,34438.9602259596,Least Concern,0
+Poroderma africanum,101,8526.694521776237,Least Concern,0
+Poroderma pantherinum,84,5202.119234199062,Least Concern,0
+Potamotrygon henlei,45,975.9434795636485,Least Concern,0
+Potamotrygon magdalenae,35,755.1,Least Concern,0
+Potamotrygon orbignyi,35,1400,Least Concern,0
+Prionace glauca,400,205930,Near Threatened,0
+Pristiophorus cirratus,137,19308.807587237734,Least Concern,0
+Pristiophorus delicatus,62.5,2354.6682482212736,Least Concern,0
+Pristiophorus lanae,66.9,2825.827291792612,Near Threatened,0
+Pristiophorus nancyae,61.6,2264.856523142822,Least Concern,0
+Pristiophorus nudipinnis,122,14149.254579023715,Least Concern,0
+Pristiophorus schroederi,80,4564.253830503943,Least Concern,0
+Pristis clavata,318,184607.47672897374,Endangered,1
+Pristis pectinata,760,350000,Critically Endangered,1
+Pristis pristis,750,1842114.5921958424,Critically Endangered,1
+Pristis zijsron,730,1713345.2079133072,Critically Endangered,1
+Proscyllium habereri,57,1839.382745288542,Vulnerable,1
+Psammobatis extenta,22.1,145.02685068587942,Least Concern,0
+Psammobatis lentiginosa,49,1226.2558812212246,Least Concern,0
+Psammobatis rutrum,30,329.08444799503474,Least Concern,0
+Pseudobatos glaucostigmus,89,6074.415810642938,Vulnerable,1
+Pseudobatos horkelii,138,19689.003828377507,Critically Endangered,1
+Pseudobatos lentiginosus,75,3839.035531864086,Vulnerable,1
+Pseudobatos leucorhynchus,118,12939.4896603752,Vulnerable,1
+Pseudobatos percellens,100,955.1,Endangered,1
+Pseudobatos planiceps,113.5,11658.530014868356,Vulnerable,1
+Pseudobatos prahli,90,1350,Vulnerable,1
+Pseudobatos productus,119,9750,Near Threatened,0
+Pseudocarcharias kamoharai,110,10719.447303356466,Least Concern,0
+Pseudoginglymostoma brevicaudatum,75,3839.035531864086,Critically Endangered,1
+Pseudotriakis microdon,269,117869.42683802232,Least Concern,0
+Pteroplatytrygon violacea,96,7441.529245144339,Least Concern,0
+Raja asterias,70,3190.7141474884793,Near Threatened,0
+Raja brachyura,120,14280,Near Threatened,0
+Raja clavata,105,18000,Near Threatened,0
+Raja maderensis,85,5369.82536249275,Vulnerable,1
+Raja microocellata,87,4500,Near Threatened,0
+Raja miraletus,63,2405.513182305948,Least Concern,0
+Raja montagui,83.5,5119.513964126872,Least Concern,0
+Raja polystigma,60,2110.557690505931,Least Concern,0
+Raja radula,70,3190.7141474884793,Endangered,1
+Raja undulata,100,8302.228700297239,Endangered,1
+Rajella annandalei,33,424.8983647620584,Least Concern,0
+Rajella barnardi,70,3190.7141474884793,Least Concern,0
+Rajella bathyphila,90,6259.1381295637975,Least Concern,0
+Rajella bigelowi,55,1671.4081849102683,Least Concern,0
+Rajella caudaspinosa,32,391.25059923352364,Least Concern,0
+Rajella challengeri,56.1,1762.5457467332726,Least Concern,0
+Rajella dissimilis,39,664.9672478138765,Least Concern,0
+Rajella eisenhardti,38.45,640.1217139197031,Least Concern,0
+Rajella fyllae,60,2110.557690505931,Least Concern,0
+Rajella leoparda,65,2615.758950533419,Least Concern,0
+Rajella lintea,123,11150,Least Concern,0
+Rajella paucispinosa,47.1,1102.8916317857315,Least Concern,0
+Rajella purpuriventralis,17.4,76.38981368434456,Least Concern,0
+Rajella ravidula,70,3190.7141474884793,Least Concern,0
+Rhina ancylostoma,300,135000,Critically Endangered,1
+Rhincodon typus,1700,34000000,Endangered,1
+Rhinobatos albomaculatus,75,3839.035531864086,Vulnerable,1
+Rhinobatos hynnicephalus,53,1513.394809269974,Endangered,1
+Rhinobatos irvinei,100,8302.228700297239,Vulnerable,1
+Rhinobatos jimbaranensis,89.2,6111.0829137369965,Vulnerable,1
+Rhinobatos penggali,86.4,5610.247696366093,Vulnerable,1
+Rhinobatos punctifer,88,5893.149921716592,Near Threatened,0
+Rhinobatos rhinobatos,147,23323.207734415417,Endangered,1
+Rhinobatos sainsburyi,59.5,2063.7323268431096,Least Concern,0
+Rhinochimaera atlantica,140,20463.398751342673,Least Concern,0
+Rhinochimaera pacifica,165,31789.9395245646,Least Concern,0
+Rhinoptera bonasus,213.3,953,Vulnerable,1
+Rhinoptera javanica,150,4500,Vulnerable,1
+Rhinoptera marginata,200,53245.70254992961,Near Threatened,0
+Rhinoptera steindachneri,90,6259.1381295637975,Near Threatened,0
+Rhizoprionodon acutus,175,5000,Vulnerable,1
+Rhizoprionodon longurio,110,10719.447303356466,Vulnerable,1
+Rhizoprionodon porosus,113,7500,Least Concern,0
+Rhizoprionodon taylori,69.1,3081.911522528145,Least Concern,0
+Rhizoprionodon terraenovae,110,7250,Least Concern,0
+Rhynchobatus australiae,124,14779.74904527942,Critically Endangered,1
+Rhynchobatus cooki,81,4718.830513974733,Critically Endangered,1
+Rhynchobatus djiddensis,310,227000,Critically Endangered,1
+Rhynchobatus immaculatus,99,8081.504830369964,Critically Endangered,1
+Rhynchobatus laevis,270,240000,Critically Endangered,1
+Rhynchobatus luebberti,300,157907.17712425409,Critically Endangered,1
+Rhynchobatus palpebratus,262,109824.69069056366,Near Threatened,0
+Rhynchobatus springeri,215,64638.85023476265,Critically Endangered,1
+Rhynchorhina mauritaniensis,224,72151.06270166118,Critically Endangered,1
+Rioraja agassizii,33,424.8983647620584,Vulnerable,1
+Rostroraja alba,230,77449.96187478467,Endangered,1
+Schroederichthys bivius,70,3190.7141474884793,Least Concern,0
+Schroederichthys chilensis,62,2304.502538807646,Least Concern,0
+Schroederichthys maculatus,33,424.8983647620584,Least Concern,0
+Schroederichthys saurisqualus,58.2,1945.0510176134171,Vulnerable,1
+Schroederichthys tenuis,70,3190.7141474884793,Least Concern,0
+Schroederobatis americana,40,711.6720661450178,Least Concern,0
+Scoliodon laticaudus,100,8302.228700297239,Near Threatened,0
+Scoliodon macrorhynchos,63.6,2467.4288834170093,Near Threatened,0
+Scyliorhinus boa,54,1591.1717915957704,Least Concern,0
+Scyliorhinus cabofriensis,46.8,1084.1582009744955,Least Concern,0
+Scyliorhinus canicula,100,1320,Least Concern,0
+Scyliorhinus capensis,122,14149.254579023715,Near Threatened,0
+Scyliorhinus meadi,49,1226.2558812212246,Least Concern,0
+Scyliorhinus retifer,48,1160.305427751751,Least Concern,0
+Scyliorhinus stellaris,170,34438.9602259596,Near Threatened,0
+Scyliorhinus torazame,50,1294.5082530821128,Least Concern,0
+Scyliorhinus torrei,32,391.25059923352364,Least Concern,0
+Scyliorhinus ugoi,53.4,1544.212459965632,Least Concern,0
+Scylliogaleus quecketti,89,6074.415810642938,Vulnerable,1
+Scymnodon ringens,110,10719.447303356466,Vulnerable,1
+Sinobatis andamanensis,37.9,615.8665141592746,Least Concern,0
+Sinobatis borneensis,39.9,706.9119341205605,Least Concern,0
+Sinobatis bulbicauda,43.3,880.2061260821919,Least Concern,0
+Sinobatis kotlyari,33.1,428.3592627064996,Least Concern,0
+Sinobatis melanosoma,59,2017.5638085501866,Least Concern,0
+Somniosus antarcticus,438,435559.4185117363,Least Concern,0
+Somniosus microcephalus,427,775000,Vulnerable,1
+Somniosus rostratus,143,21660.341030477317,Least Concern,0
+Sphyrna corona,92,6639.057580804473,Critically Endangered,1
+Sphyrna lewini,430,152400,Critically Endangered,1
+Sphyrna media,150,24621.35787718393,Critically Endangered,1
+Sphyrna mokarran,610,449500,Critically Endangered,1
+Sphyrna tiburo,150,10760,Endangered,1
+Sphyrna tudes,134,18195.947281130455,Critically Endangered,1
+Sphyrna zygaena,500,400000,Vulnerable,1
+Spiniraja whitleyi,200,53245.70254992961,Vulnerable,1
+Springeria folirostris,40,711.6720661450178,Least Concern,0
+Springeria longirostris,75,3839.035531864086,Least Concern,0
+Squaliolus aliae,22,143.27412063271612,Least Concern,0
+Squaliolus laticaudus,22,143.27412063271612,Least Concern,0
+Squalus acanthias,95,9100,Vulnerable,1
+Squalus albifrons,74,3703.331371891116,Least Concern,0
+Squalus bassi,96,7441.529245144339,Least Concern,0
+Squalus chloroculus,85.6,5472.055250967832,Endangered,1
+Squalus crassispinus,47.6,1134.562599750022,Least Concern,0
+Squalus cubensis,110,10719.447303356466,Least Concern,0
+Squalus edmundsi,70,3190.7141474884793,Near Threatened,0
+Squalus formosus,73.4,3623.3737698296677,Endangered,1
+Squalus grahami,60.2,2129.4725940048666,Near Threatened,0
+Squalus griffini,89.9,6240.509605065624,Least Concern,0
+Squalus hemipinnis,52.2,1452.923097566646,Vulnerable,1
+Squalus japonicus,91,6447.3432826829485,Endangered,1
+Squalus lalannei,61.5,2255.0123483851617,Least Concern,0
+Squalus margaretsmithae,54.3,1614.9830606220858,Least Concern,0
+Squalus megalops,72,3441.039293761209,Least Concern,0
+Squalus mitsukurii,89.8,6221.915882624647,Endangered,1
+Squalus montalbani,84,5202.119234199062,Vulnerable,1
+Squalus nasutus,49.9,1287.5785189849157,Near Threatened,0
+Squalus notocaudatus,61.9,2294.550577952925,Least Concern,0
+Squalus raoulensis,68.1,2963.782506014762,Least Concern,0
+Squalus suckleyi,140,20463.398751342673,Least Concern,0
+Squatina aculeata,188,45106.36163478947,Critically Endangered,1
+Squatina africana,80,4564.253830503943,Near Threatened,0
+Squatina albipunctata,98.5,17000,Vulnerable,1
+Squatina argentina,170,34438.9602259596,Critically Endangered,1
+Squatina australis,152,25511.41444725081,Least Concern,0
+Squatina californica,152,25511.41444725081,Near Threatened,0
+Squatina david,78.7,4368.105495104309,Near Threatened,0
+Squatina dumeril,152,25511.41444725081,Least Concern,0
+Squatina formosa,55.4,1704.198311667329,Endangered,1
+Squatina guggenheim,129,16432.216865280418,Endangered,1
+Squatina japonica,200,53245.70254992961,Vulnerable,1
+Squatina legnota,134.1,18232.37687901379,Critically Endangered,1
+Squatina occulta,120,13535.898739951816,Critically Endangered,1
+Squatina oculata,160,29272.489423555493,Critically Endangered,1
+Squatina pseudocellata,75.1,3852.774673263328,Least Concern,0
+Squatina squatina,183,80000,Critically Endangered,1
+Squatina tergocellata,135,18562.302419493753,Least Concern,0
+Squatina tergocellatoides,63,2405.513182305948,Endangered,1
+Squatina varii,124.2,14843.748473336214,Least Concern,0
+Sutorectus tentaculatus,92,6639.057580804473,Least Concern,0
+Sympterygia acuta,149.5,24401.933300775832,Critically Endangered,1
+Sympterygia bonapartii,63,2405.513182305948,Near Threatened,0
+Sympterygia brevicaudata,38,620.2329008392073,Near Threatened,0
+Taeniura lymma,35,497.50566338913507,Near Threatened,0
+Taeniurops meyeni,330,150000,Vulnerable,1
+Telatrygon acutirostra,10.61,20.27895428520004,Near Threatened,0
+Telatrygon zugei,29,300.4920009689459,Near Threatened,0
+Temera hardwickii,46,1035.1816531783882,Vulnerable,1
+Tetronarce californica,140,20463.398751342673,Least Concern,0
+Tetronarce cowleyi,68,2952.1285024366134,Least Concern,0
+Tetronarce occidentalis,154,60000,Least Concern,0
+Tetronarce puelcha,110,10719.447303356466,Critically Endangered,1
+Tetronarce tremens,90,6259.1381295637975,Least Concern,0
+Torpedo adenensis,10.7,20.74344416183507,Endangered,1
+Torpedo andersoni,22,143.27412063271612,Least Concern,0
+Torpedo suessii,23.2,165.1992273362937,Critically Endangered,1
+Triaenodon obesus,213,18250,Vulnerable,1
+Triakis acutipinna,90,6259.1381295637975,Endangered,1
+Triakis maculata,180,40142.49897184172,Critically Endangered,1
+Triakis megalopterus,142,20000,Least Concern,0
+Triakis scyllium,150,24621.35787718393,Least Concern,0
+Triakis semifasciata,198,18420,Least Concern,0
+Trigonognathus kabeyai,47,425.6,Least Concern,0
+Trygonoptera galba,32.8,418.0292898666019,Least Concern,0
+Trygonoptera imitata,68.9,3058.0539047267453,Least Concern,0
+Trygonoptera mucosa,44,918.8775069565609,Least Concern,0
+Trygonoptera ovalis,61,2206.19396173106,Least Concern,0
+Trygonoptera personata,47,1096.6247904793313,Least Concern,0
+Trygonoptera testacea,47,1096.6247904793313,Near Threatened,0
+Trygonorrhina dumerilii,146,22900.25045668104,Least Concern,0
+Trygonorrhina fasciata,126,6700,Least Concern,0
+Typhlonarke aysoni,45,975.9434795636485,Least Concern,0
+Urobatis concentricus,47.5,1128.1833967694427,Least Concern,0
+Urobatis halleri,58,1360,Least Concern,0
+Urobatis jamaicensis,76,3977.81580608374,Least Concern,0
+Urobatis maculatus,42,811.1299417645272,Least Concern,0
+Urobatis pardalis,46.2,1047.2928391635553,Least Concern,0
+Urobatis tumbesensis,34.5,478.6785924535367,Vulnerable,1
+Urogymnus asperrimus,147,23323.207734415417,Vulnerable,1
+Urogymnus dalyensis,124,14779.74904527942,Least Concern,0
+Urogymnus granulatus,141,20857.64332448083,Vulnerable,1
+Urogymnus lobistoma,49.2,1239.7211785531968,Endangered,1
+Urogymnus polylepis,240,600000,Endangered,1
+Urolophus aurantiacus,40,711.6720661450178,Vulnerable,1
+Urolophus bucculentus,80,4564.253830503943,Vulnerable,1
+Urolophus circularis,60,2110.557690505931,Least Concern,0
+Urolophus cruciatus,50,1294.5082530821128,Least Concern,0
+Urolophus deforgesi,34.2,467.60015159708337,Least Concern,0
+Urolophus expansus,47,1096.6247904793313,Least Concern,0
+Urolophus flavomosaicus,59,2017.5638085501866,Least Concern,0
+Urolophus gigas,70,3190.7141474884793,Least Concern,0
+Urolophus kapalensis,43.3,880.2061260821919,Near Threatened,0
+Urolophus lobatus,38,620.2329008392073,Least Concern,0
+Urolophus mitosis,29,300.4920009689459,Least Concern,0
+Urolophus neocaledoniensis,36.6,560.8493575360711,Least Concern,0
+Urolophus orarius,31,359.32490701302584,Endangered,1
+Urolophus papilio,31.3,368.7239817422444,Least Concern,0
+Urolophus paucimaculatus,57,1839.382745288542,Least Concern,0
+Urolophus piperatus,48.4,1186.411428741751,Least Concern,0
+Urolophus sufflavus,42,811.1299417645272,Vulnerable,1
+Urolophus viridis,44,918.8775069565609,Vulnerable,1
+Urolophus westraliensis,36,536.5371065716666,Least Concern,0
+Urotrygon aspidura,50,1294.5082530821128,Near Threatened,0
+Urotrygon chilensis,41.9,805.962403378774,Near Threatened,0
+Urotrygon cimar,38.2,629.0237870717807,Near Threatened,0
+Urotrygon microphthalmum,11.8,26.966379171425185,Critically Endangered,1
+Urotrygon munda,28.8,294.96796971993274,Near Threatened,0
+Urotrygon nana,25,201.84358655859572,Near Threatened,0
+Urotrygon reticulata,24.1,182.9464461889647,Critically Endangered,1
+Urotrygon rogersi,46.2,1047.2928391635553,Near Threatened,0
+Urotrygon simulatrix,26.7,240.7782110201534,Vulnerable,1
+Urotrygon venezuelae,25.5,212.8495948542584,Endangered,1
+Zameus squamulosus,84,5202.119234199062,Least Concern,0
+Zapteryx brevirostris,53.4,758,Endangered,1
+Zapteryx xyster,78,4264.7160853657715,Vulnerable,1
