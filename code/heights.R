@@ -2,10 +2,8 @@ library(tidyverse)
 library(gghighlight)
 
 # read the heights data :
-heights <- read_csv("datasets/heights.csv")
-head(heights,8)
-
-ggplot( stack(heights), aes(values)) + geom_histogram() + facet_wrap(~ind) + xlab("Heights")
+( heights <- read_csv("datasets/heights.csv", col_types=cols() )  )
+ggplot( stack(heights), aes(values)) + geom_histogram(binwidth=1) + facet_wrap(~ind) + xlab("Heights")
 #ggsave("../images/height_histograms.png",device="png")
 
 mean(heights$Father)
