@@ -61,6 +61,12 @@ rownames(classifier.table)=c("Bud not observed","Bud observed")
 classifier.table
 mean( chasm$Bud != chasm$Classifier)
 
+pred <- prediction(chasm$Fit.probability, chasm$Bud)
+perf <- performance(pred,"tpr","fpr")
+plot(perf, colorize=TRUE )
+auc <- performance( pred, "auc")
+auc@y.values[[1]]
+
 ( counts <- chasm %>% group_by(Photoperiod) %>% summarize(N = n(), Observed = sum(Bud), Expected = mean(Fit.probability)*n(), .groups="drop"  ) )
 # round( as.data.frame(counts), 3 )
 

@@ -12,7 +12,7 @@ library(gghighlight)
 
 # read the data :
 
-africa <- read_csv("../datasets/UN/africa.csv")
+africa <- read_csv("datasets/africa.csv")
 
 ( g <- ggplot( africa, aes(Literacy,Deaths)) + geom_point() )
 #ggsave( "../images/literacy_deaths.png", device="png")
