@@ -70,4 +70,3 @@ summary( sons.70$Son  )
 sd( sons.70$Son )
 ggplot( sons.70, aes(Son)) + geom_histogram( binwidth=2 )
 #ggsave("../images/sons70.png", device="png")
-

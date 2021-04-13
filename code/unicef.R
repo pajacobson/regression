@@ -1,15 +1,6 @@
 library(tidyverse)
 library(gghighlight)
 
-#sse <- function(b,m,x,y){ 
-#  total <- 0 ;
-#  for(i in 1:length(x)){
-#    total <- total + ( y[i] - b - m*x[i] )^2 ; 
-#  }
-#  
-#  return(total) ;
-#}
-
 # read the data :
 
 africa <- read_csv("datasets/africa.csv")
@@ -96,4 +87,3 @@ pred <- predict(africa.fit, interval="prediction")
 # ggplot( cbind(africa,UN.predict),aes(Literacy,Deaths))+geom_point()+geom_smooth(method="lm")+geom_line(aes(y=lwr),color="red")+geom_line(aes(y=upr),color="red")
 ggplot( cbind(africa,pred),aes(Literacy,Deaths))+geom_point()+geom_smooth(method="lm")+geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=0.2)
 #ggsave("../images/literacy_deaths_ci_preds.png", device="png")
-
