@@ -3,8 +3,9 @@ library(ROCR)
 
 # to recreate chronic.csv :
 # namcs <- read_delim("../datasets/namcs2009.tsv","\t", escape_double = FALSE, trim_ws = TRUE)
-# chronic <- namcs %>% filter( NOCHRON < 2 ) %>% select(Age = AGE, Condition = NOCHRON)
+# chronic <- namcs %>% filter( NOCHRON < 2 ) %>% select(Age = AGE, Sex = SEX, Condition = NOCHRON)
 # chronic$Condition <- 1 - chronic$Condition
+# chronic$Sex <- chronic$Sex - 1
 # summary( chronic )
 # write_csv( chronic, "../datasets/chronic.csv" )
 
@@ -86,8 +87,6 @@ plot(perf, colorize=TRUE )
 points( c(.735,.377,.09), c(.975,.832,.349), pch=19)
 auc <- performance( pred, "auc")
 auc@y.values[[1]]
-
-
 
 ( cohorts <- chronic %>% group_by(Age) %>% summarize(N=n(), Successes=sum(Condition), Failures=n()-sum(Condition), Percentage=mean(Condition), .groups="drop") )
 
