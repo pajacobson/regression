@@ -3,7 +3,7 @@ library(gghighlight)
 
 # read the heights data :
 ( heights <- read_csv("datasets/heights.csv", col_types=cols() )  )
-ggplot( stack(heights), aes(values)) + geom_histogram(binwidth=1) + facet_wrap(~ind) + xlab("Heights")
+ggplot( gather(heights), aes(value)) + geom_histogram(binwidth=1) + facet_wrap(~key) + xlab("Heights")
 #ggsave("../images/height_histograms.png",device="png")
 
 mean(heights$Father)
@@ -15,16 +15,8 @@ sd(heights$Son)
 # add column for grouping by father's height, rounded to nearest inch:
 heights <- heights %>% mutate( Group = round(Father))
 
-# father.stats <- data.frame(Group = "Fathers", Average = round(mean( heights$Father ),2), SD = round(sd(heights$Father),2))
-# son.stats <- data.frame(Group = "Sons", Average = round(mean( heights$Son ),2), SD = round(sd(heights$Son),2))
-# overall.stats <- rbind( father.stats, son.stats )
-# knitr::kable(overall.stats)
-# write_csv( overall.stats, "../tables/overall_stats.csv")
-
 # compute average height for each group :
-son.stats <- heights %>% group_by(Group) %>% summarize("Number of sons" = n(), Average = round(mean(Son),2), SD = round(sd(Son),2))
-knitr::kable( son.stats )
-# write_csv(son.stats, "../tables/son_stats.csv")
+( son.stats <- heights %>% group_by(Group) %>% summarize("Number of sons" = n(), Average = round(mean(Son),2), SD = round(sd(Son),2)) )
 
 (g <- ggplot(heights, aes(Father,Son)) + geom_point())
 #ggsave("../images/heights.png",device="png")
