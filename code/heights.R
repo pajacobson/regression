@@ -3,7 +3,10 @@ library(gghighlight)
 
 # read the heights data :
 ( heights <- read_csv("datasets/heights.csv", col_types=cols() )  )
-ggplot( gather(heights), aes(value)) + geom_histogram(binwidth=1) + facet_wrap(~key) + xlab("Heights")
+ggplot( gather(heights), aes(value)) + 
+  geom_histogram(binwidth=1) + 
+  facet_wrap(~key) + 
+  xlab("Heights")
 #ggsave("../images/height_histograms.png",device="png")
 
 mean(heights$Father)
@@ -12,25 +15,22 @@ sd(heights$Father)
 mean(heights$Son)
 sd(heights$Son)
 
-# add column for grouping by father's height, rounded to nearest inch:
 heights <- heights %>% mutate( Group = round(Father))
-
-# compute average height for each group :
-( son.stats <- heights %>% group_by(Group) %>% summarize("Number of sons" = n(), Average = round(mean(Son),2), SD = round(sd(Son),2)) )
+( son.stats <- heights %>% 
+    group_by(Group) %>% 
+    summarize(N = n(), Average = round(mean(Son),2), SD = round(sd(Son),2)))
 
 (g <- ggplot(heights, aes(Father,Son)) + geom_point())
 #ggsave("../images/heights.png",device="png")
 
-(g64 <- g + geom_vline(xintercept=c(63.5,64.5),linetype="dashed") + gghighlight( Group == 64))
-#ggsave("../images/fathers64.png",device="png")
-
-g64 + geom_point(aes(x=64,y=son.stats$Average[ son.stats$Group == 64]), color="red", size=3)
+g + geom_vline(xintercept=c(63.5,64.5),linetype="dashed") + 
+  gghighlight( Group == 64) + 
+  geom_point(aes(x=64,y=son.stats$Average[ son.stats$Group == 64]), color="red", size=3)
 #ggsave("../images/fathers64son.png",device="png")
 
-(g70 <- g + geom_vline(xintercept=c(69.5,70.5),linetype="dashed") + gghighlight( Group == 70 ))
-#ggsave("../images/fathers70.png",device="png")
-
-g70 + geom_point(aes(x=70,y=son.stats$Average[ son.stats$Group == 70]), color="red", size=3)
+g + geom_vline(xintercept=c(69.5,70.5),linetype="dashed") + 
+  gghighlight( Group == 70 ) + 
+  geom_point(aes(x=70,y=son.stats$Average[ son.stats$Group == 70]), color="red", size=3)
 #ggsave("../images/fathers70son.png",device="png")
 
 son.groups <- heights %>% filter( Group == 64 | Group == 70) %>% select(Son,Group)
@@ -40,7 +40,8 @@ ggplot(son.groups, aes(Son)) + geom_histogram( binwidth=1 ) + facet_wrap(~Group)
 g + geom_point(data = son.stats, aes(Group, Average), color="red", size=3)
 #ggsave("../images/avgsons.png",device="png")
 
-g + geom_smooth( method="lm", level=0 ) + geom_point(data = son.stats, aes(Group, Average), color="red", size=3) 
+g + geom_smooth( method="lm", level=0 ) + 
+  geom_point(data = son.stats, aes(Group, Average), color="red", size=3) 
 #ggsave("../images/avgsons_with_line.png",device="png")
 
 g + geom_smooth( method="lm", level=0 )

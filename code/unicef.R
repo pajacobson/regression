@@ -1,8 +1,6 @@
 library(tidyverse)
-library(gghighlight)
 
 # read the data :
-
 africa <- read_csv("datasets/africa.csv")
 
 ( g <- ggplot( africa, aes(Literacy,Deaths)) + geom_point() )
@@ -11,7 +9,8 @@ africa <- read_csv("datasets/africa.csv")
 ( x.bar <- mean(africa$Literacy) )
 ( y.bar <- mean(africa$Deaths) )
 
-g + geom_vline(xintercept=x.bar,linetype="dashed",color="blue") + geom_hline(yintercept=y.bar, linetype="dashed",color="blue")
+g + geom_vline(xintercept=x.bar,linetype="dashed",color="blue") + 
+  geom_hline(yintercept=y.bar, linetype="dashed",color="blue")
 #ggsave("../images/quadrants.png",device="png")
 
 # correlation:
@@ -25,9 +24,6 @@ g + geom_hline(yintercept=y.bar,color="blue",size=1)
 
 var(africa$Deaths)
 39*var(africa$Deaths)
-
-# sqrt( var(africa$Deaths))
-# sd( africa$Deaths ) 
  
 # SD line:
 (s.x <- sd(africa$Literacy))
@@ -36,13 +32,6 @@ var(africa$Deaths)
 (b <- y.bar - (m*x.bar))
 g + geom_abline(slope = m, intercept=b, color="deeppink",size=1)
 #ggsave("../images/sdline.png",device="png")
- 
-# # show residuals for Namibia (row 32) and Somalia (row 39) :
-# ( x1 <- c(africa[[32,2]],africa[[39,2]]) )
-# ( y1 <- c(africa[[32,3]],africa[[39,3]]) )
-# ( y2 <- b + m*x1 )
-# g + geom_abline(slope = m, intercept=b, color="violet",size=1) + geom_segment(aes(x=x1[1],y=y1[1],xend=x1[1],yend=y2[1]),color="red") + geom_segment(aes(x=x1[2],y=y1[2],xend=x1[2],yend=y2[2]),color="red")
-# #ggsave("../images/residuals.png",device="png")
 
 # contour plot:
 # m.seq <- seq(-1,-.6,length=500)
@@ -78,12 +67,17 @@ sigma( null.fit )
 ( africa.rss <- sum(africa.fit$residuals^2) )
 africa.rse <- sqrt( africa.rss / africa.fit$df.residual )
 
-africa <- africa %>% mutate(Fit = africa.fit$fitted.values, Residual = africa.fit$residuals)
+africa <- africa %>% 
+  mutate(Fit = africa.fit$fitted.values) %>% 
+  mutate(Residual = africa.fit$residuals)
 # summary(africa.fit$residuals)
-ggplot(africa, aes(Literacy,Residual))+geom_point()+geom_hline(yintercept=c(-2*africa.rse,0,2*africa.rse), linetype="dashed")
+ggplot(africa, aes(Literacy,Residual)) + 
+  geom_point()+geom_hline(yintercept=c(-2*africa.rse,0,2*africa.rse), linetype="dashed")
 #ggsave("../images/literacy_deaths_residuals.png", device="png")
 
 pred <- predict(africa.fit, interval="prediction")
-# ggplot( cbind(africa,UN.predict),aes(Literacy,Deaths))+geom_point()+geom_smooth(method="lm")+geom_line(aes(y=lwr),color="red")+geom_line(aes(y=upr),color="red")
-ggplot( cbind(africa,pred),aes(Literacy,Deaths))+geom_point()+geom_smooth(method="lm")+geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=0.2)
+ggplot( cbind(africa,pred),aes(Literacy,Deaths)) + 
+  geom_point() + 
+  geom_smooth(method="lm") + 
+  geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=0.2)
 #ggsave("../images/literacy_deaths_ci_preds.png", device="png")

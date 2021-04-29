@@ -10,7 +10,9 @@ nonthreatened <- c("Least Concern","Near Threatened")
 sharks.fit <- glm( Threatened ~ log(Weight), data = sharks, family = binomial )
 summary( sharks.fit )
 pchisq( sharks.fit$null.deviance - sharks.fit$deviance, 1, lower.tail=F)
-ggplot( sharks, aes(log(Weight),Threatened)) + geom_point() + geom_smooth( method=glm, method.args = list(family = "binomial"))
+ggplot( sharks, aes(log(Weight),Threatened)) + 
+  geom_point() + 
+  geom_smooth( method=glm, method.args = list(family = "binomial"))
 #ggsave("../images/sharks_fit.png", device="png")
 
 link <- family(sharks.fit)$link
@@ -18,8 +20,15 @@ linkinv <- family(sharks.fit)$linkinv
 new <- data.frame( Weight = c(1800,270000))
 ( responses <- predict( sharks.fit, new, type="response") )
 links <- predict( sharks.fit, new, type="link", se.fit=TRUE)
-( predictions <- data.frame( Weight = new$Weight, logWeight = log(new$Weight), Link.lwr = links$fit - 1.96*links$se.fit, Link = links$fit, Link.upr = links$fit + 1.96*links$se.fit))
-( predictions <- predictions %>% mutate( Response.lwr = linkinv(Link.lwr), Response = linkinv(Link), Response.upr = linkinv(Link.upr)) )
+( predictions <- tibble( Weight = new$Weight ) %>%
+    mutate( logWeight = log(new$Weight) ) %>%  
+    mutate( Link.lwr = links$fit - 1.96*links$se.fit ) %>% 
+    mutate( Link = links$fit ) %>% 
+    mutate( Link.upr = links$fit + 1.96*links$se.fit) )
+( predictions <- predictions %>% 
+    mutate( Response.lwr = linkinv(Link.lwr) ) %>% 
+    mutate( Response = linkinv(Link) ) %>%  
+    mutate( Response.upr = linkinv(Link.upr)) )
 
 # vcov( sharks.fit )
 
