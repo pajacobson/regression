@@ -1,5 +1,4 @@
 library(tidyverse)
-library(ROCR)
 
 # to recreate chronic.csv :
 # namcs <- read_delim("datasets/namcs2009.tsv","\t", escape_double = FALSE, trim_ws = TRUE)
