@@ -2,34 +2,35 @@ library(tidyverse)
 
 # read the data :
 africa <- read_csv("datasets/africa.csv")
+n_countries <- dim(africa)[1]
 
-( g <- ggplot( africa, aes(Literacy,Deaths)) + geom_point() )
+( g <- ggplot( africa, aes(Literacy,IMR)) + geom_point() )
 #ggsave( "../images/literacy_deaths.png", device="png")
 
-( x.bar <- mean(africa$Literacy) )
-( y.bar <- mean(africa$Deaths) )
+( x_bar <- mean(africa$Literacy) )
+( y_bar <- mean(africa$IMR) )
 
-g + geom_vline(xintercept=x.bar,linetype="dashed",color="blue") + 
-  geom_hline(yintercept=y.bar, linetype="dashed",color="blue")
+g + geom_vline(xintercept=x_bar,linetype="dashed",color="blue") + 
+  geom_hline(yintercept=y_bar, linetype="dashed",color="blue")
 #ggsave("../images/quadrants.png",device="png")
 
 # correlation:
-(africa.r <- cor(africa$Literacy, africa$Deaths))
+(africa_r <- cor(africa$Literacy, africa$IMR))
 
 # null model:
-g + geom_hline(yintercept=y.bar,color="blue",size=1)
+g + geom_hline(yintercept=y_bar,color="blue",size=1)
 #ggsave("../images/africa_nullmodel.png",device="png")
 
-(africa.tss <- sum( (africa$Deaths - y.bar )^2 ))
+(africa_tss <- sum( (africa$IMR - y_bar )^2 ))
 
-var(africa$Deaths)
-39*var(africa$Deaths)
+var(africa$IMR)
+(n_countries - 1)*var(africa$IMR)
  
 # SD line:
-(s.x <- sd(africa$Literacy))
-(s.y <- sd(africa$Deaths))
-(m <- -(s.y / s.x))
-(b <- y.bar - (m*x.bar))
+(s_x <- sd(africa$Literacy))
+(s_y <- sd(africa$IMR))
+(m <- -(s_y / s_x))
+(b <- y_bar - (m*x_bar))
 g + geom_abline(slope = m, intercept=b, color="deeppink",size=1)
 #ggsave("../images/sdline.png",device="png")
 
@@ -40,11 +41,12 @@ g + geom_abline(slope = m, intercept=b, color="deeppink",size=1)
 # z <- rep(0,125000)
 # for(i in 1:125000){ z[i] <- sse(mb.grid[i,1],mb.grid[i,2],africa$Literacy,africa$Deaths) }
 # ss <- data.frame(intercept=mb.grid$Var1,slope=mb.grid$Var2,height=z)
-# ggplot(ss,aes(x=intercept,y=slope,z=height))+geom_contour(bins=30)+geom_vline(xintercept = 120.2917, linetype="dashed")+geom_hline(yintercept = -.8476, linetype="dashed")
+# ggplot(ss,aes(x=intercept,y=slope,z=height))+
+#  geom_contour(bins=30)+geom_vline(xintercept = 120.2917, linetype="dashed")+geom_hline(yintercept = -.8476, linetype="dashed")
 # #ggsave("../images/rss-contour.png",device="png")
 
-(m <- africa.r*(s.y/s.x)) 
-(b <- y.bar - m*x.bar)
+(m <- africa_r*( s_y / s_x ) ) 
+(b <- y_bar - m*x_bar)
 
 g + geom_smooth(level=0, method="lm")
 #ggsave( "../images/literacy_deaths_with_line.png", device="png")
@@ -56,27 +58,27 @@ g + geom_smooth(level=.95, method="lm")
 # #ggsave("../images/compare_fits.png", device="png")
 # 
 
-( africa.fit <- lm( Deaths ~ Literacy, data = africa ) )
-summary( africa.fit )
-sigma( africa.fit )
+( africa_fit <- lm( IMR ~ Literacy, data = africa ) )
+summary( africa_fit )
+sigma( africa_fit )
 
-( null.fit <- lm( Deaths ~ 1, data = africa ) )
-summary( null.fit )
-sigma( null.fit )
+( null_fit <- lm( IMR ~ 1, data = africa ) )
+summary( null_fit )
+sigma( null_fit )
 
-( africa.rss <- sum(africa.fit$residuals^2) )
-africa.rse <- sqrt( africa.rss / africa.fit$df.residual )
+( africa_rss <- sum(africa_fit$residuals^2) )
+africa_rse <- sqrt( africa_rss / africa_fit$df.residual )
 
 africa <- africa %>% 
-  mutate(Fit = africa.fit$fitted.values) %>% 
-  mutate(Residual = africa.fit$residuals)
+  mutate(Fit = africa_fit$fitted.values) %>% 
+  mutate(Residual = africa_fit$residuals)
 # summary(africa.fit$residuals)
 ggplot(africa, aes(Literacy,Residual)) + 
-  geom_point()+geom_hline(yintercept=c(-2*africa.rse,0,2*africa.rse), linetype="dashed")
+  geom_point()+geom_hline(yintercept=c(-2*africa_rse,0,2*africa_rse), linetype="dashed")
 #ggsave("../images/literacy_deaths_residuals.png", device="png")
 
-pred <- predict(africa.fit, interval="prediction")
-ggplot( cbind(africa,pred),aes(Literacy,Deaths)) + 
+pred <- predict(africa_fit, interval="prediction")
+ggplot( cbind(africa,pred),aes(Literacy,IMR)) + 
   geom_point() + 
   geom_smooth(method="lm") + 
   geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=0.2)

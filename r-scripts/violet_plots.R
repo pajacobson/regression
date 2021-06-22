@@ -18,7 +18,8 @@ ggplot( violet.plots, aes(Plot,Rate)) +
   geom_line() +
   geom_point( aes(Plot,Fit), color="red") + 
   geom_line( aes(Plot,Fit), color="red" ) +
-  xlab("Plot number")
+  xlab("Plot number") +
+  ylim(0,0.6)
 # ggsave("images/plots_fit_bad.png",device="png")
 
 str(violet.plots)
@@ -36,7 +37,8 @@ ggplot( violet.plots, aes(as.numeric(Plot),Rate)) +
   geom_line() +
   geom_point( aes(as.numeric(Plot),Fit), color="red") + 
   geom_line( aes(as.numeric(Plot),Fit), color="red" ) +
-  xlab("Plot number")
+  xlab("Plot number") + 
+  ylim(0,0.6)
 # ggsave("images/plots_fit_good.png", device="png")
 
 summary( violetplot.fit) 
