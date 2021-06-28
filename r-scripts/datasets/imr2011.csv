@@ -1,0 +1,196 @@
+Country,Continent,IMR
+Afghanistan,Asia,73
+Albania,Europe,13
+Algeria,Africa,26
+Andorra,Europe,3
+Angola,Africa,96
+Antigua and Barbuda,North America,6
+Argentina,South America,13
+Armenia,Asia,16
+Australia,Oceania,4
+Austria,Europe,4
+Azerbaijan,Asia,39
+Bahamas,North America,14
+Bahrain,Asia,9
+Bangladesh,Asia,37
+Barbados,North America,18
+Belarus,Europe,4
+Belgium,Europe,4
+Belize,North America,15
+Benin,Africa,68
+Bhutan,Asia,42
+Bolivia,South America,39
+Bosnia and Herzegovina,Europe,7
+Botswana,Africa,20
+Brazil,South America,14
+Brunei Darussalam,Asia,6
+Bulgaria,Europe,11
+Burkina Faso,Africa,82
+Burundi,Africa,86
+Cambodia,Asia,36
+Cameroon,Africa,79
+Canada,North America,5
+Cape Verde,Africa,18
+Central African Republic,Africa,108
+Chad,Africa,97
+Chile,South America,8
+China,Asia,13
+Colombia,South America,15
+Comoros,Africa,59
+Congo,Africa,64
+Cook Islands,Oceania,8
+Costa Rica,North America,9
+Côte d'Ivoire,Africa,81
+Croatia,Europe,4
+Cuba,North America,5
+Cyprus,Europe,3
+Czech Republic,Europe,3
+North Korea,Asia,26
+Congo,Africa,111
+Denmark,Europe,3
+Djibouti,Africa,72
+Dominica,North America,11
+Dominican Republic,North America,21
+Ecuador,South America,20
+Egypt,Africa,18
+El Salvador,North America,13
+Equatorial Guinea,Africa,80
+Eritrea,Africa,46
+Estonia,Europe,3
+Ethiopia,Africa,52
+Fiji,Oceania,14
+Finland,Europe,2
+France,Europe,3
+Gabon,Africa,49
+Gambia,Africa,58
+Georgia,Asia,18
+Germany,Europe,3
+Ghana,Africa,52
+Greece,Europe,4
+Grenada,North America,10
+Guatemala,North America,24
+Guinea,Africa,79
+Guinea-Bissau,Africa,98
+Guyana,South America,29
+Haiti,North America,53
+Honduras,North America,18
+Hungary,Europe,5
+Iceland,Europe,2
+India,Asia,47
+Indonesia,Asia,25
+Iran,Asia,21
+Iraq,Asia,31
+Ireland,Europe,3
+Israel,Asia,4
+Italy,Europe,3
+Jamaica,North America,16
+Japan,Asia,2
+Jordan,Asia,18
+Kazakhstan,Asia,25
+Kenya,Africa,48
+Kiribati,Oceania,38
+Kuwait,Asia,9
+Kyrgyzstan,Asia,27
+Laos,Asia,34
+Latvia,Europe,7
+Lebanon,Asia,8
+Lesotho,Africa,63
+Liberia,Africa,58
+Libya,Africa,13
+Lithuania,Europe,5
+Luxembourg,Europe,2
+Madagascar,Africa,43
+Malawi,Africa,53
+Malaysia,Asia,6
+Maldives,Asia,9
+Mali,Africa,98
+Malta,Europe,5
+Marshall Islands,Oceania,22
+Mauritania,Africa,76
+Mauritius,Africa,13
+Mexico,North America,13
+Micronesia,Oceania,34
+Monaco,Europe,3
+Mongolia,Asia,26
+Montenegro,Europe,7
+Morocco,Africa,28
+Mozambique,Africa,72
+Myanmar,Asia,48
+Namibia,Africa,30
+Nauru,Oceania,32
+Nepal,Asia,39
+Netherlands,Europe,3
+New Zealand,Oceania,5
+Nicaragua,North America,22
+Niger,Africa,66
+Nigeria,Africa,78
+Niue,Oceania,18
+Norway,Europe,3
+Oman,Asia,7
+Pakistan,Asia,59
+Palau,Oceania,14
+Panama,North America,17
+Papua New Guinea,Oceania,45
+Paraguay,South America,19
+Peru,South America,14
+Philippines,Asia,20
+Poland,Europe,5
+Portugal,Europe,3
+Qatar,Asia,6
+South Korea,Asia,4
+Moldova,Europe,14
+Romania,Europe,11
+Russia,Europe,10
+Rwanda,Africa,38
+Saint Kitts and Nevis,North America,6
+Saint Lucia,North America,14
+Saint Vincent and the Grenadines,North America,20
+Samoa,Oceania,16
+San Marino,Europe,2
+Sao Tome and Principe,Africa,58
+Saudi Arabia,Asia,8
+Senegal,Africa,47
+Serbia,Europe,6
+Seychelles,Africa,12
+Sierra Leone,Africa,119
+Singapore,Asia,2
+Slovakia,Europe,7
+Slovenia,Europe,2
+Solomon Islands,Oceania,18
+Somalia,Africa,108
+South Africa,Africa,35
+South Sudan,Africa,76
+Spain,Europe,4
+Sri Lanka,Asia,11
+State of Palestine,Asia,20
+Sudan,Africa,57
+Suriname,South America,26
+Swaziland,Africa,69
+Sweden,Europe,2
+Switzerland,Europe,4
+Syria,Asia,13
+Tajikistan,Asia,53
+Thailand,Asia,11
+Macedonia,Europe,9
+Timor-Leste,Asia,46
+Togo,Africa,73
+Tonga,Oceania,13
+Trinidad and Tobago,North America,25
+Tunisia,Africa,14
+Turkey,Asia,12
+Turkmenistan,Asia,45
+Tuvalu,Oceania,25
+Uganda,Africa,58
+Ukraine,Europe,9
+United Arab Emirates,Asia,6
+United Kingdom,Europe,4
+Tanzania,Africa,45
+United States,North America,6
+Uruguay,South America,9
+Uzbekistan,Asia,42
+Vanuatu,Oceania,11
+Venezuela,South America,13
+Viet Nam,Asia,17
+Yemen,Asia,57
+Zambia,Africa,53
+Zimbabwe,Africa,43

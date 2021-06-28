@@ -2,7 +2,7 @@ library(tidyverse)
 
 # read the data :
 africa <- read_csv("datasets/africa.csv")
-n_countries <- dim(africa)[1]
+(n_countries <- dim(africa)[1])
 
 ( g <- ggplot( africa, aes(Literacy,IMR)) + geom_point() )
 #ggsave( "../images/literacy_deaths.png", device="png")
