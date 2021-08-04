@@ -2,12 +2,12 @@ library(tidyverse)
 library(ROCR)
 
 # to recreate chronic.csv :
-# namcs <- read_delim("../datasets/namcs2009.tsv","\t", escape_double = FALSE, trim_ws = TRUE)
-# chronic <- namcs %>% filter( NOCHRON < 2 ) %>% select(Age = AGE, Sex = SEX, Condition = NOCHRON)
+# namcs <- read_delim("datasets/namcs2009.tsv","\t", escape_double = FALSE, trim_ws = TRUE)
+# chronic <- namcs %>% filter( NOCHRON < 2 ) %>% select(Age = AGE, Condition = NOCHRON)
 # chronic$Condition <- 1 - chronic$Condition
 # chronic$Sex <- chronic$Sex - 1
 # summary( chronic )
-# write_csv( chronic, "../datasets/chronic.csv" )
+# write_csv( chronic, "datasets/chronic.csv" )
 
 ( chronic <- read_csv("datasets/chronic.csv", col_types=cols()) )
 ( chronic.size <- dim(chronic)[1] )
@@ -17,7 +17,7 @@ ggplot( chronic, aes(Age,Condition)) + geom_point()
 
 chronic %>% 
   group_by(Condition) %>% 
-  summarize( Number = n(), Percentage = n()/chronic.size, .groups = "drop")
+  summarize( Number = n(), Percentage = Number/chronic.size, .groups = "drop")
 
 ( cohorts <- chronic %>% 
     group_by(Age) %>% 
@@ -40,21 +40,6 @@ ggplot(chronic, aes(Age,Condition)) +
   geom_point( data=decades, aes(Decade,Percentage), color="red", size=2)
 # ggsave("images/ages_decades.png", device="png")
 
-( chronic.fit <- glm( Condition ~ Age, data = chronic, family = "binomial" ) )
-summary(chronic.fit)
-chronic <- chronic %>% mutate( Probability = chronic.fit$fitted.values)
-
-# g + geom_line( data=chronic, aes(x = Age, y = Probability), size=1 )
-# ggsave("../images/chronic_fit.png",device="png")
-
-# g + geom_line( data=chronic, aes(x = Age, y = Probability), size=1 ) + geom_point( data=ages, aes(x=Age,y=Percentage), size=1)
-
-# new <- data.frame(Age=seq(-70,150,by=1))
-# predictions <- predict(chronic.fit,new,type="response")
-# extended.curve <- data.frame(Age = new$Age, Probability = predictions)
-# g + xlim(-70,150) + geom_line( data=extended.curve, aes( x = Age, y = Probability), size=1 )
-# ggsave("../images/chronic_logit.png",device="png")
-
 z = seq(-5,5,len=1000)
 logit <- data.frame(z = z, sigma = 1 / ( 1 + exp(-z) ) )
 ggplot( logit, aes(z,sigma)) + geom_line( size=1 )
@@ -63,6 +48,12 @@ ggplot( logit, aes(z,sigma)) + geom_line( size=1 )
 chronic.fit <- glm( Condition ~ Age, data = chronic, family = "binomial" )
 summary(chronic.fit)
 chronic <- chronic %>% mutate( Probability = chronic.fit$fitted.values)
+
+# new <- data.frame(Age=seq(-70,150,by=1))
+# predictions <- predict(chronic.fit,new,type="response")
+# extended.curve <- data.frame(Age = new$Age, Probability = predictions)
+# g + xlim(-70,150) + geom_line( data=extended.curve, aes( x = Age, y = Probability), size=1 )
+# ggsave("../images/chronic_logit.png",device="png")
 
 ( chronic <- chronic %>% mutate( Classifier = as.numeric(Age > 39.36) ) )
 class.table <- table( chronic$Condition, chronic$Classifier )

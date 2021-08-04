@@ -41,14 +41,13 @@ sharks.table
 mean( sharks$Threatened == sharks$Classifier )
 mean( sharks$Threatened != sharks$Classifier )
 
-# investigate the following results further!! 
-
-# sharks <- sharks %>% mutate(pi.hat = sharks.fit$fitted.values) 
+sharks <- sharks %>% mutate(pi.hat = sharks.fit$fitted.values) 
+sharks %>% group_by(Threatened) %>% summarize( N = n(), pi.average = mean(pi.hat)) 
+ggplot( sharks, aes(pi.hat))+geom_histogram()+facet_wrap(~Threatened)+xlim(0,1)
 
 # (sharks.null <- mean( sharks$Threatened ))
 # ( sharks.R2.M <- 1 - (sharks.fit$deviance / sharks.fit$null.deviance ) )
 # ( sharks.R2.S <- sum( (sharks.fit$fitted.values - sharks.null)^2 ) / sum( (sharks$Threatened - sharks.null)^2 ) )
-# sharks %>% group_by(Threatened) %>% summarize( N = n(), pi.average = mean(pi.hat)) 
 
 # sharks <- sharks %>% mutate(v.hat = pi.hat*(1-pi.hat), r.i = Threatened - pi.hat)
 # sharks.S <- sum( (sharks$r.i)^2 )
@@ -60,3 +59,4 @@ mean( sharks$Threatened != sharks$Classifier )
 # sharks.var <- as.numeric( t(d) %*% (I-M) %*% V %*% d )
 # ( sharks.z <- ( sharks.S - sum(sharks$v.hat) ) / sqrt(sharks.var ) )
 # ( sharksfit.pvalue <- 2*pnorm( -abs(sharks.z) ) )
+
