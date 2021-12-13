@@ -4,6 +4,8 @@ library(MASS)
 
 options(scipen=99)
 
+# SHOW THAT MONTHLY COUNTS ARE ALL ABOUT THE SAME...
+
 # TN counties: crashes per month -----
 ######################################
 
