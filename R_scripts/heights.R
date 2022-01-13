@@ -57,10 +57,3 @@ heights.plot +
 ( heights.fit <- lm( Son ~ Father, data = heights ))
 summary( heights.fit )
 
-ggplot( heights %>% filter(Group == 64), aes(Son)) + 
-  geom_histogram( binwidth=1 )
-#ggsave("../images/sons64.png", device="png")
-
-ggplot( heights %>% filter(Group == 70), aes(Son)) + 
-  geom_histogram( binwidth=1 )
-#ggsave("../images/sons70.png", device="png")
