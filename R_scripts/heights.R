@@ -1,5 +1,4 @@
 library(tidyverse)
-# library(gghighlight)
 
 # read the heights data :
 (heights <- read_csv("../datasets/heights.csv", col_types = cols()))
